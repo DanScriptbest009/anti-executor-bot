@@ -30,7 +30,7 @@ def report():
     timestamp = data.get('timestamp', 'Desconocida')
 
     # <<< CAMBIA ESTE ID POR EL DE TU CANAL DE NOTIFICACIONES >>>
-    channel_id = 123456789012345678  # ← PON TU ID REAL AQUÍ
+    channel_id = 1457479963946258608  # ← PON TU ID REAL AQUÍ
     channel = bot.get_channel(channel_id)
 
     if not channel:
